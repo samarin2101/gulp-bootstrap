@@ -1,0 +1,33 @@
+.header-default {
+	box-shadow: 0 0 1px $black;
+	background-color: #f8f9fa;
+	padding: 25px 0;
+}
+.nav {
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+	&__link {
+		font-size: 18px;
+		transition: color 0.2s ease-in-out;
+		&:hover {
+			color: $red;
+		}
+	}
+}
+
+.nav {
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__logo {
+		a {
+			font-size: 25px;
+			font-weight: 700;
+		}
+	}
+}

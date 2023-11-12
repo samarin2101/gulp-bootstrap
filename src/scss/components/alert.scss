@@ -1,0 +1,16 @@
+.alert {
+  border-radius: 10px;
+  color: $white;
+  padding: 15px 20px;
+  &-primary {
+    background-color: #084298;
+    box-shadow: 0 0 3px #41464b;
+  }
+  &-success {
+    background-color: #0f5132;
+    box-shadow: 0 0 3px #41464b;
+  }
+  &-danger {
+    background-color: #842029;
+  }
+}

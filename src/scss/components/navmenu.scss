@@ -1,0 +1,32 @@
+.nav {
+	&__logo {
+		a {
+			font-size: 30px;
+			font-weight: 700;
+		}
+	}
+}
+
+.nav {
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+	&__link {
+		text-transform: uppercase;
+		font-size: 17px;
+		transition: color 0.2s ease-in-out;
+    &--active {
+      color: red;
+    }
+		&:hover {
+			color: $red;
+		}
+	}
+}

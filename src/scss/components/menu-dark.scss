@@ -1,0 +1,26 @@
+.header-dark {
+	background-color: $black;
+	color: $white;
+	padding: 25px 0;
+	box-shadow: 0 0 3px $black;
+
+	&_list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+
+	&__link {
+		font-size: 18px;
+		transition: color 0.2s ease-in-out;
+		&:hover {
+			color: $red;
+		}
+	}
+	&__fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+}
